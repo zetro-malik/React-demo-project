@@ -11,4 +11,4 @@ jobs:
       - name: build the project
         run: npm run build
       - name: setup finish
-        run: echo "DONE"
+        run: echo "bye"

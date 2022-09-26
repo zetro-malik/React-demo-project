@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
         <h2>Umer sheik, tum humraay saat bahir Q ni atay? please batao?</h2>
-        <img src={pic} alt='hello hello'  />
+        <img src={pic} alt='hello hello'  width={300} height={300}/>
         </p>
         <a
           className="App-link"
@@ -17,7 +17,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          blah blah blah 
+         Eshan Ayasti <br></br>
+         taray zameen par
         </a>
       </header>
     </div>

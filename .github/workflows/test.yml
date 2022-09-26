@@ -1,0 +1,3 @@
+myapp:
+  service: my-codedam-project
+  test: script1

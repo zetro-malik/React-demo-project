@@ -8,6 +8,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
+      - name: install node_modules
+        run: npm 
       - name: build the project
         run: npm run build
       - name: setup finish

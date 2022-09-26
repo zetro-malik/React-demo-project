@@ -10,6 +10,8 @@ jobs:
           node-version: '14'
       - name: install node_modules
         run: npm install
+      - name: cd
+        run: cd hello
       - name: build the project
         run: npm run build
       - name: setup finish

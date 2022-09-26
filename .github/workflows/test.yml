@@ -1,3 +1,8 @@
-myapp:
-  service: my-codedam-project
-  test: script1
+name: My First GitHub Action
+on: [push]
+jobs:
+  print-hello-world:
+    runs-on: ubuntu-latest
+    step:
+      - run: echo "hello world!!!!!"
+      - run: echo "this is step 2"

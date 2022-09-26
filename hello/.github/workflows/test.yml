@@ -1,7 +1,7 @@
 name: My First GitHub Action
 on: [push]
 jobs:
-  print-hello-world:
+  project-Build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
